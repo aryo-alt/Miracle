@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="galary.css">
+    <style>
+        /* Style untuk tombol kembali ke beranda */
+        .back-home-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px; /* Mengatur jarak ke atas */
+            transition: background-color 0.3s ease;
+        }
+        .back-home-button:hover {
+            background-color: #4b4b4b;
+        }
+        /* Mengatur posisi tombol agar lebih ke atas */
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+            position: relative;
+            top: -200px; /* Menggeser tombol ke atas */
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Latest Projects</h1>
+    <div class="wrapper">
+        <div class="container">
+            <input type="radio" name="slide" id="c1" checked>
+            <label for="c1" class="card">
+                <div class="row">
+                    <div class="icon">1</div>
+                    <div class="description">
+                        <h4>Fashion Web</h4>
+                        <p>Fashion - Discover the Wonders of Fashion</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c2">
+            <label for="c2" class="card">
+                <div class="row">
+                    <div class="icon">2</div>
+                    <div class="description">
+                        <h4>Food Web</h4>
+                        <p>Makanan - Discover the Wonders of Food</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c3">
+            <label for="c3" class="card">
+                <div class="row">
+                    <div class="icon">3</div>
+                    <div class="description">
+                        <h4>Profile Web</h4>
+                        <p>Profile - Discover the Wonders of Any Profile</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4">
+            <label for="c4" class="card">
+                <div class="row">
+                    <div class="icon">4</div>
+                    <div class="description">
+                        <h4>Natuure</h4>
+                        <p>Natuure - Discover the Wonders of Nature</p>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+
+    <!-- Button to go back to home -->
+    <div class="button-container">
+        <a href="../index.html">
+            <button class="back-home-button">Home</button>
+        </a>
+    </div>
+    
+</body>
+</html>
